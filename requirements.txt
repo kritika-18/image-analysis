@@ -2,4 +2,3 @@ numpy
 streamlit
 tensorflow
 keras
-pillow
