@@ -1,2 +1,4 @@
-*.h5
-*.jpg
+# cat .slugignore
+/test
+/spec
+/docs

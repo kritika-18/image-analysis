@@ -6,7 +6,7 @@ from tempfile import NamedTemporaryFile
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 
-st.image('My-Image.jpg')
+st.image('My-Image-compressed.jpg')
 st.header('Pneumonia Detection')
 st.text('Please upload your X-ray image for detection!')
 st.set_option('deprecation.showfileUploaderEncoding',False)
@@ -56,6 +56,6 @@ sen2='This application of pneumonia detection has been made using the deep learn
 st.sidebar.write(sen)
 st.sidebar.write(sen2)
 st.sidebar.write("How does CNN works?")
-st.sidebar.image('CNN1.jpg')
+st.sidebar.image('CNN1-compressed.jpg')
 st.sidebar.write('CNN, stands for Convolutional Neural Networks, is used to detect patterns in any image and based on those patterns it classifies the images into different categories.')
 st.sidebar.write(" CNNs use image recognition and classification in order to detect objects, recognize faces, etc. They are made up of neurons with learnable weights and biases. Each specific neuron receives numerous inputs and then takes a weighted sum over them, where it passes it through an activation function and responds back with an output.")
