@@ -6,13 +6,9 @@ from tempfile import NamedTemporaryFile
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 
-
-
-
 st.image('My-Image.jpg')
 st.header('Pneumonia Detection')
 st.text('Please upload your X-ray image for detection!')
-
 st.set_option('deprecation.showfileUploaderEncoding',False)
 @st.cache(allow_output_mutation=True)
 
@@ -52,7 +48,6 @@ else:
 
     image = Image.open(temp)
     st.image(image,use_column_width=True)
-
 
 st.write('by Kritika Chauhan 😁')
 sen='Nowadays, artificial intelligence is being an important part in every field. Even in the medical field, many medical analysis are being done using the latest technologies. Disease detection is one of those applications.'
